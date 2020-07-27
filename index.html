@@ -13,14 +13,239 @@
         body {
             background-color: black;
         }
+        /*
+ *  Add a black background color to the top navigation
+ */
         
         .topnav {
+            overflow: hidden;
+            background-color: #444;
+        }
+        /*
+     *  Make a style for fixing the menu to the top.
+     */
+        
+        .fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        /*
+ *  Style the links inside the navigation bar
+ */
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: #eee;
+            text-align: center;
+            padding: 12px 12px;
+            text-decoration: none;
+            font-size: 16pt;
+        }
+        /*
+ *  Add an active class to highlight the current page
+ */
+        
+        .active {
+            background-color: #6666;
+            color: #eee;
+        }
+        /*
+ *  Style image in topnav.
+ */
+        
+        .logo {
+            width: 20px;
+            height: 20px;
+        }
+        /*
+ *  Style image in topnav.
+ */
+        
+        .topnav-image a {
+            float: left;
+            display: block;
+            color: #eee;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16pt;
+        }
+        /*
+ *  Right-aligned section inside the top navigation
+ */
+        
+        .topnav-right {
+            float: right;
+        }
+        /*
+ *  Style the right aligned links inside the navigation bar
+ */
+        
+        .topnav-right a {
+            font-size: 16pt;
+        }
+        /*
+ *  Hide the link that should open and close the topnav on
+ *  small screens
+ */
+        
+        .topnav .icon {
+            display: none;
+        }
+        /*
+ *  Change the color of links on hover
+ */
+        /*
+ *  Add a dark background on topnav links and the dropdown button on hover
+ */
+        
+        .topnav a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+        
+        .topnav .branch-container {
+            float: right;
+        }
+        
+        .topnav .branch-container select {
+            padding: 5px;
+            margin: 4px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16pt;
+            color: #eeeeee;
+            background-color: #666666;
+            background-image: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        
+        .topnav .search-container {
+            float: right;
+        }
+        
+        .topnav input[type=text] {
+            padding: 6px;
+            margin: 4px;
+            font-size: 16pt;
+            border: none;
+            border-radius: 8px;
+            background: #666666;
+            color: #eeeeee;
+        }
+        
+        .topnav .search-container button {
+            /*float: right;*/
+            /*padding: 10px 10px;*/
+            display: none;
+            margin-top: 4px;
+            margin-right: 8px;
+            background: #ddd;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            background: #444;
+            color: #eee;
+        }
+        
+        .topnav .search-container button:hover {
+            background: #666;
+            color: #eee;
+        }
+        
+        ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #eee;
+            opacity: 1;
+            /* Firefox */
+        }
+        
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #eee;
+        }
+        
+        ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: #eee;
+        }
+        /*
+ *  Format the footer.
+ */
+        
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #cccccc;
+            color: black;
+        }
+        /*
+ *  Style the links inside the footer.
+ */
+        
+        .footer a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 8px 8px;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        /*
+ *  Right-aligned section inside the footer.
+ */
+        
+        .footer-right {
+            float: right;
+        }
+        /*
+ *  Hover effect of footer items.
+ */
+        
+        .footer a:hover {
+            background-color: #dddddd;
+            color: black;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: sans-serif;
+        }
+        /*
+ *  Format the main content.
+ */
+        
+        .main {
+            /*padding: 16px;*/
+            margin-top: 70px;
+            margin-left: 16px;
+            margin-right: 16px;
+            margin-bottom: 50px;
+        }
+        
+        h1.title {
+            font-weight: normal;
+        }
+        /* .topnav {
             background-color: rosybrown;
             overflow: hidden;
         }
         
         .topnav a {
             color: black;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16pt;
         }
         /* CSS for top navigation bar */
         
@@ -44,6 +269,8 @@
             /* background-color: #4CAF50; */
             color: white;
         }
+        
+        */
     </style>
 </head>
 
