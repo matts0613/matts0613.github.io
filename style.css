@@ -23,18 +23,13 @@ body {
     color: black;
 }
 
-.logo {
-    width: 20px;
-    height: 20px;
-}
-
 .topnav {
     background-color: rgb(21, 32, 43);
     overflow: hidden;
 }
 
 .topnav a {
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-size: 16pt;
@@ -42,7 +37,7 @@ body {
 
 .topnav a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
