@@ -112,15 +112,6 @@ body {
     color: #eee;
 }
 
-::placeholder {
-    Chrome,
-    Firefox,
-    Opera,
-    Safari 10.1+color: #eee;
-    opacity: 1;
-    Firefox */
-}
-
 :-ms-input-placeholder {
     color: #eee;
 }
