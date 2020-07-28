@@ -8,12 +8,6 @@ body {
     background-color: #444;
 }
 
-.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
 
 .topnav a {
     float: left;
@@ -33,123 +27,6 @@ body {
 .logo {
     width: 20px;
     height: 20px;
-}
-
-.topnav-image a {
-    float: left;
-    display: block;
-    color: #eee;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16pt;
-}
-
-.topnav-right {
-    float: right;
-}
-
-.topnav-right a {
-    font-size: 16pt;
-}
-
-.topnav .icon {
-    display: none;
-}
-
-.topnav a:hover {
-    background-color: grey;
-    color: #fff;
-}
-
-.topnav .branch-container {
-    float: right;
-}
-
-.topnav .branch-container select {
-    padding: 5px;
-    margin: 4px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16pt;
-    color: #eeeeee;
-    background-color: grey;
-    background-image: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-.topnav .search-container {
-    float: right;
-}
-
-.topnav input[type=text] {
-    padding: 6px;
-    margin: 4px;
-    font-size: 16pt;
-    border: none;
-    border-radius: 8px;
-    background: #666666;
-    color: #eeeeee;
-}
-
-.topnav .search-container button {
-    float: right;
-    padding: 10px 10px;
-    display: none;
-    margin-top: 4px;
-    margin-right: 8px;
-    background: #ddd;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background: #444;
-    color: #eee;
-}
-
-.topnav .search-container button:hover {
-    background: grey;
-    color: #eee;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #cccccc;
-    color: black;
-}
-
-.footer a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 8px 8px;
-    text-decoration: none;
-    font-size: 12pt;
-}
-
-.footer-right {
-    float: right;
-}
-
-.footer a:hover {
-    background-color: #dddddd;
-    color: black;
-}
-
-.main {
-    padding: 16px;
-    margin-top: 70px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 50px;
-}
-
-h1.title {
-    font-weight: normal;
 }
 
 .topnav {
