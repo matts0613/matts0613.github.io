@@ -118,7 +118,7 @@ body {
     Opera,
     Safari 10.1+color: #eee;
     opacity: 1;
-    Firefox */
+    Firefox
 }
 
 :-ms-input-placeholder {
@@ -203,13 +203,4 @@ h1.title {
 h1 {
     text-align: center;
     color: purple;
-}
-
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
 }
